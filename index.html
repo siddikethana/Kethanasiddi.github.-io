@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siddi Kethana | AI & Software Developer Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#07111f;color:#eaf2ff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,17,31,.92);backdrop-filter:blur(10px);border-bottom:1px solid #1d3048}
+.nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:20px;color:#63b3ff}
+.navlinks{display:flex;gap:22px;font-size:14px}
+.navlinks a:hover{color:#63b3ff}
+.hero{min-height:100vh;display:flex;align-items:center;max-width:1100px;margin:auto;padding:120px 22px 70px}
+.hero h1{font-size:clamp(42px,7vw,78px);line-height:1.05;margin:12px 0}
+.hero h1 span{color:#63b3ff}
+.tag{display:inline-block;padding:7px 13px;border:1px solid #2d5275;border-radius:30px;color:#9bcfff;background:#0c1e33}
+.hero p{max-width:720px;color:#b9c8d9;font-size:18px}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 20px;border-radius:9px;border:1px solid #347bb8;background:#1683d8;font-weight:700}
+.btn.secondary{background:transparent}
+section{max-width:1100px;margin:auto;padding:85px 22px}
+h2{font-size:34px;margin-bottom:28px}
+.muted{color:#aebed0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#0c1b2d;border:1px solid #1c3550;border-radius:16px;padding:24px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#3c8ed0}
+.skill{display:flex;justify-content:space-between;margin-bottom:15px}
+.bar{height:7px;background:#172b40;border-radius:20px;overflow:hidden;margin-top:7px}
+.fill{height:100%;background:#3b9de8;border-radius:20px}
+.timeline{border-left:2px solid #2d75aa;padding-left:25px}
+.item{margin-bottom:28px;position:relative}
+.item:before{content:"";width:11px;height:11px;background:#49aaf0;border-radius:50%;position:absolute;left:-32px;top:7px}
+.badge{display:inline-block;padding:5px 9px;background:#122943;border-radius:7px;color:#8ecbff;font-size:12px;margin-bottom:8px}
+.project{min-height:190px}
+.project h3{margin-bottom:8px}
+footer{text-align:center;padding:35px 20px;border-top:1px solid #1d3048;color:#8fa4b9}
+@media(max-width:700px){.navlinks{display:none}.hero{min-height:90vh}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<nav><div class="nav">
+<div class="logo">SK.</div>
+<div class="navlinks">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div>
+</div></nav>
+
+<header class="hero">
+<div>
+<div class="tag">AI • Software Development • Innovation</div>
+<h1>Hi, I'm <span>Siddi Kethana.</span></h1>
+<h2 style="font-size:26px;margin-bottom:12px">Aspiring AI & Software Developer</h2>
+<p>Computer Science student passionate about Artificial Intelligence, software development, and building practical technology-driven solutions to real-world problems.</p>
+<div class="buttons">
+<a class="btn" href="#projects">View My Work</a>
+<a class="btn secondary" href="#contact">Get In Touch</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p class="muted">I am a Computer Science student at Vishwabharathi, Krishna University. I have practical exposure to AI and Python through an internship and experience that strengthened my communication and interaction skills. I enjoy learning emerging technologies, solving problems, and turning ideas into functional applications. I am continuously developing my technical skills through projects and hands-on learning.</p>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="grid">
+<div class="card"><div class="skill"><b>Python</b><b>Strong</b></div><div class="bar"><div class="fill" style="width:88%"></div></div><p class="muted">AI, automation and application development</p></div>
+<div class="card"><div class="skill"><b>Java</b><b>Strong</b></div><div class="bar"><div class="fill" style="width:82%"></div></div><p class="muted">Object-oriented programming</p></div>
+<div class="card"><div class="skill"><b>HTML</b><b>Strong</b></div><div class="bar"><div class="fill" style="width:86%"></div></div><p class="muted">Web structure and interfaces</p></div>
+<div class="card"><div class="skill"><b>Flask</b><b>Developing</b></div><div class="bar"><div class="fill" style="width:72%"></div></div><p class="muted">Python-based web applications</p></div>
+<div class="card"><h3>Artificial Intelligence</h3><p class="muted">AI concepts and project development</p></div>
+<div class="card"><h3>Problem Solving</h3><p class="muted">Turning ideas into practical solutions</p></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="timeline">
+<div class="item"><span class="badge">INTERNSHIP</span><h3>AI with Python Internship</h3><p class="muted">Gained practical exposure to AI concepts and Python through an internship project.</p></div>
+<div class="item"><span class="badge">EXPERIENCE</span><h3>Swiggy Project / Telecaller Experience</h3><p class="muted">Developed communication, interaction, and customer-handling skills through telecaller-related work.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects & Innovation</h2>
+<div class="grid">
+<div class="card project"><span class="badge">AI + WEB</span><h3>AI-Powered Applications</h3><p class="muted">Interested in developing practical AI applications using Python and web technologies to solve everyday problems.</p></div>
+<div class="card project"><span class="badge">HACKATHON</span><h3>Innovation Projects</h3><p class="muted">Focused on transforming ideas into technology-driven prototypes with problem solving, teamwork, and emerging technologies.</p></div>
+<div class="card project"><span class="badge">FULL STACK</span><h3>Web Application Development</h3><p class="muted">Building user-friendly web experiences using HTML, Flask, and Python-based application logic.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Let's Connect</h2>
+<div class="card">
+<p><b>Email:</b> siddikethana@gmail.com</p>
+<p><b>Location:</b> Bhimavaram, Andhra Pradesh</p>
+<p style="margin-top:14px" class="muted">Open to learning opportunities, collaborative projects, internships, and hackathon experiences.</p>
+</div>
+</section>
+
+<footer>© 2026 Siddi Kethana • AI & Software Development Portfolio</footer>
+</body>
+</html>
